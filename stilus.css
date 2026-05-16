@@ -46,6 +46,7 @@ section {
     border-bottom: 2em;
     border-radius: 5px;
     box-shadow: 0 0 15px rgba(16, 185, 129, 0.1);
+    margin: 20px;
 }
 
 .szoveg {
@@ -61,4 +62,23 @@ h2 {
 }
 img {
     width: 100%;
+    border-radius: 5px;
+    border-top: 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    border-bottom: 1em;
+    text-align: justify;
+}
+
+@media screen and (max-width: 765px) {
+  .szoveg {
+    grid-template-columns: 1fr;
+    width: 100%;
+    font-size: 1.4em;
+  }
+  nav {
+    grid-template-columns: 1fr;
+  }
 }
