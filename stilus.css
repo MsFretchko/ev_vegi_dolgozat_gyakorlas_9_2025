@@ -13,4 +13,52 @@ nav {
 a {
     color: white;
     background-color: #059669;
+    text-decoration: none;
+    padding: 0.75em 1.5em;
+    margin: 0em 0.5em;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #047857;
+}
+
+h1 {
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    padding: 1.5em;
+    border-bottom: 2em;
+    font-size: 3em;
+}
+
+article {
+    max-width: 900px;
+    margin: auto;
+    padding: 0em 1em;
+}
+
+section {
+    background-color: #e6fef1;
+    border-left: solid #10b981 ;
+    padding:  25px;
+    border-bottom: 2em;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(16, 185, 129, 0.1);
+}
+
+.szoveg {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 10px;
+}
+
+h2 {
+    color: #065f46;
+    border-top: 0em;
+    font-size: 1.8rem;
+}
+img {
+    width: 100%;
 }
